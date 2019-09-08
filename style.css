@@ -1,0 +1,90 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Esteban', serif;
+}
+
+.container{
+  display:flex;
+}
+
+.container .sideBar{
+  position:fixed;
+  width:250px;
+  height:100%;
+  background:#131931;
+  color:white;
+  text-align: center;
+}
+
+
+.container .sideBar ul li{
+  padding: 40px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.container .sideBar ul li:hover{
+  background:#594f8d;
+}
+
+.container .sideBar ul li a{
+  color:white;
+  display: block;
+}
+
+.container .logo{
+  margin-left:auto;
+  margin-right: auto;
+  width:100%;
+}
+.container .sideBar ul li:hover{
+  background: #594f8d;
+}
+
+.container .mainContent{
+  width:100%;
+  margin-left:250px;
+  display:grid;
+  height:100%;
+}
+
+.container .mainContent .background{
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+ position: relative;
+}
+
+.container .mainContent .profile{
+  position:absolute;
+  border-radius: 50%;
+  height:30%;
+  width:18%;
+  border-image: 50%;
+  overflow: hidden;
+  display:block;
+  margin-left: 35%;
+  margin-top:20%;
+  border: 2px solid white;
+} 
+.container .mainContent .caption{
+  position: absolute;
+  text-align:center;
+  width:18%;
+  display:inline-block;
+  margin-left: 35%;
+  margin-top: 41%;
+  color:white;
+}
+
+.container .mainContent .caption p{
+  margin-top:10px;
+  line-height: 1.5;
+  font-size: 20px;
+}
+
